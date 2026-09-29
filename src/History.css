@@ -1,0 +1,152 @@
+.history,
+.tradition,
+.beliefs,
+.arts,
+.titleArea {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.history h2,
+.tradition h2,
+.beliefs h2,
+.arts h2 {
+    margin-bottom: 25px;
+}
+
+.firstInfo,
+.secondInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+.firstInfo > div:first-child,
+.secondInfo > div:first-child {
+    flex: 1;
+}
+
+.milestone,
+.documentation {
+    flex: 0 0 380px;
+    padding: 25px;
+    border: 1px solid #d8d2c4;
+    border-radius: 10px;
+    background-color: #eae3d3;
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.milestone:hover,
+.documentation:hover {
+    transform: translateY(-8px);
+    border-color: #7a6045;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.milestone h5,
+.documentation h5 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #7a6045;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.milestone h4,
+.documentation h4 {
+    margin: 0 0 15px;
+}
+
+.cards {
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-top: 35px;
+}
+
+.cards > div {
+    flex: 1;
+    padding: 30px;
+    border: 1px solid #d8d2c4;
+    border-radius: 10px;
+    background-color: #f7f3eb;
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.cards > div:hover {
+    transform: translateY(-8px);
+    border-color: #7a6045;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.cards h4 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.first-two,
+.second-two {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.weaving,
+.music,
+.clothing,
+.food {
+    flex: 1;
+    padding: 10px 20px 30px;
+}
+
+.weaving hr,
+.music hr,
+.clothing hr,
+.food hr {
+    border: none;
+    border-top: 2px solid #7a6045;
+    margin-bottom: 25px;
+}
+
+.weaving h3,
+.music h3,
+.clothing h3,
+.food h3 {
+    margin-bottom: 15px;
+}
+
+.note {
+    margin-top: 50px;
+    padding: 25px;
+    background-color: #f7f3eb;
+}
+
+.titleArea > p:first-child {
+    margin-bottom: 10px;
+    
+    color: #aa9c7c;
+    font-size: 0.9rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+}
+
+.titleArea > small {
+    color:#789aa5;
+}
+
+.milestone,
+.documentation > small:last-child {
+    color:#789aa5;
+}
+
+.milestone h4 {
+    color: black !important;
+}

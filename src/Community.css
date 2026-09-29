@@ -1,0 +1,109 @@
+.header {
+    display: flex;
+    padding: 100px 8%;
+}
+
+.header-text {
+    width: 100%;
+}
+
+.header p {
+    margin: 0 0 15px;
+}
+
+.header h1 {
+    margin: 10px 0 25px;
+}
+
+.header-description {
+    display: flex;
+    align-items: stretch;
+    gap: 20px;
+}
+
+.header-description small {
+    line-height: 1.5;
+}
+
+.header-image {
+    width: 500px;
+    height: 160px;
+    object-fit: cover;
+    flex-shrink: 0;
+    display: end;
+}
+
+.header hr {
+    margin: 40px 0 0;
+}
+
+
+.note {
+    border: 1px solid orange;
+    align-items: center;
+    justify-content: center;
+}
+
+.eskayaDefinition {
+    padding: 110px 8%;
+}
+
+.eskayaDefinition h2 {
+    margin: 0 0 35px;
+}
+
+.eskayaDefinition p {
+    margin: 0 0 25px;
+}
+
+.geographic {
+    padding: 110px 8%;
+}
+
+.geographic h2 {
+    margin: 0 0 35px;
+}
+
+.geographic > p {
+    margin: 0 0 25px;
+}
+
+.places {
+    margin: 30px 0;
+}
+
+.places p {
+    margin: 12px 0;
+}
+
+.demographic {
+    padding: 110px 8%;
+}
+
+.demographic h2 {
+    margin: 0 0 35px;
+}
+
+.demographic > p {
+    margin: 0 0 30px;
+}
+
+.note {
+    margin: 0 0 45px;
+    padding: 25px 30px;
+}
+
+.header-text > p:first-child {
+    margin-bottom: 10px;
+    
+    color: #e4c67e;
+    font-size: 0.9rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.text-with-image {
+    display: flex;
+    gap: 70px;
+}

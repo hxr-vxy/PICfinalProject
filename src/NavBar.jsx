@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
+import "./Nav.css";
 
 function Nav() {
-    return(
-        <div>
+    return (
+        <nav className="navbar">
             <Link to="/">Home</Link>
             <Link to="/community">Community</Link>
             <Link to="/history">History</Link>
@@ -10,8 +11,8 @@ function Nav() {
             <Link to="/today">Today</Link>
             <Link to="/digital">Digital</Link>
             <Link to="/creators">Creators</Link>
-        </div>
-    )
+        </nav>
+    );
 }
 
 export default Nav;
